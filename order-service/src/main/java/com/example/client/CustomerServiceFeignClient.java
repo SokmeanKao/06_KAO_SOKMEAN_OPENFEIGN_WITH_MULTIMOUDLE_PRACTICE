@@ -1,7 +1,7 @@
 package com.example.client;
 
-import com.example.model.dto.response.ApiResponse;
-import com.example.model.dto.response.CustomerResponse;
+import com.example.response.ApiResponse;
+import com.example.response.CustomerResponse;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

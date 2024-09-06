@@ -2,8 +2,8 @@ package com.example.service.serviceimpl;
 
 import com.example.model.Customer;
 import com.example.model.dto.request.CustomerRequest;
-import com.example.model.dto.response.CustomerResponse;
 import com.example.repository.CustomerRepository;
+import com.example.response.CustomerResponse;
 import com.example.service.CustomerService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;

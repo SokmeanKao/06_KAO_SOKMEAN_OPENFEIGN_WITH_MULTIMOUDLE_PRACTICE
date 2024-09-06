@@ -1,7 +1,7 @@
 package com.example.service;
 
 import com.example.model.dto.request.CustomerRequest;
-import com.example.model.dto.response.CustomerResponse;
+import com.example.response.CustomerResponse;
 
 import java.util.List;
 
