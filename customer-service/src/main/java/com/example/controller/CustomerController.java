@@ -1,9 +1,9 @@
 package com.example.controller;
 
 import com.example.model.dto.request.CustomerRequest;
-import com.example.model.dto.response.ApiResponse;
-import com.example.model.dto.response.CustomerResponse;
-import com.example.model.dto.response.DeleteResponse;
+import com.example.response.DeleteResponse;
+import com.example.response.ApiResponse;
+import com.example.response.CustomerResponse;
 import com.example.service.CustomerService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
