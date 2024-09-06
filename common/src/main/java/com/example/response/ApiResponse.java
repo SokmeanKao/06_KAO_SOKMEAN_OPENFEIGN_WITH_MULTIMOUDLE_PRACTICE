@@ -1,6 +1,5 @@
-package com.example.model.dto.response;
+package com.example.response;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -13,9 +12,9 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class DeleteResponse {
+public class ApiResponse<T> {
     private String message;
+    private T payload;
     private HttpStatus status;
-    @JsonFormat(pattern="yyyy-MM-dd")
     private LocalDateTime dateTime;
 }

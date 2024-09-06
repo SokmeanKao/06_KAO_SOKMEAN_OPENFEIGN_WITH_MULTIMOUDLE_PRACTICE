@@ -1,6 +1,7 @@
 package com.example.model.dto.response;
 
-import com.example.model.Order;
+import com.example.response.CustomerResponse;
+import com.example.response.ProductResponse;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
