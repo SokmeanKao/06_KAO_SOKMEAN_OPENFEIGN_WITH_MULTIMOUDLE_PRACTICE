@@ -1,0 +1,6 @@
+rootProject.name = 'OpenFeign-with-Multi-Module-Practice'
+include 'common'
+include 'order-service'
+include 'product-service'
+include 'customer-service'
+
