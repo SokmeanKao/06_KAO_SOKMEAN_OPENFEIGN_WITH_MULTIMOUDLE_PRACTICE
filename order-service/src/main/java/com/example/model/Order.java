@@ -1,9 +1,8 @@
 package com.example.model;
 
-import com.example.model.dto.request.OrderRequest;
-import com.example.model.dto.response.CustomerResponse;
+import com.example.response.CustomerResponse;
 import com.example.model.dto.response.OrderResponse;
-import com.example.model.dto.response.ProductResponse;
+import com.example.response.ProductResponse;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

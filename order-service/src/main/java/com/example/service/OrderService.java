@@ -13,8 +13,7 @@ public interface OrderService {
     List<OrderResponse> getAllOrder();
 
     OrderResponse updateOrder(Long id, OrderRequest orderRequest);
-
-    OrderResponse getOrderBtId(Long id);
+    OrderResponse getOrderById(Long id);
 
     boolean deleteOrder(Long id);
 }
