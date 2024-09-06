@@ -1,7 +1,7 @@
 package com.example.service;
 
-import com.example.model.dto.request.ProductRequest;
-import com.example.model.dto.response.ProductResponse;
+import com.example.model.ProductRequest;
+import com.example.response.ProductResponse;
 
 import java.util.List;
 
@@ -13,4 +13,6 @@ public interface ProductService {
     ProductResponse getProductById(Long id);
 
     boolean deleteProduct(Long id);
+
+    ProductResponse updateProduct(Long id, ProductRequest productRequest);
 }

@@ -1,8 +1,8 @@
 package com.example.service.serviceimpl;
 
 import com.example.model.Product;
-import com.example.model.dto.request.ProductRequest;
-import com.example.model.dto.response.ProductResponse;
+import com.example.model.ProductRequest;
+import com.example.response.ProductResponse;
 import com.example.respository.ProductRepository;
 import com.example.service.ProductService;
 import lombok.AllArgsConstructor;
@@ -37,5 +37,10 @@ public class ProductServiceImpl implements ProductService {
             return true;
         }
         return false;
+    }
+
+    @Override
+    public ProductResponse updateProduct(Long id, ProductRequest productRequest) {
+        return productRepository.save(productRequest.toEntity(id)).toResponse();
     }
 }

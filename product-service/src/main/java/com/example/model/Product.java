@@ -1,6 +1,6 @@
 package com.example.model;
 
-import com.example.model.dto.response.ProductResponse;
+import com.example.response.ProductResponse;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
